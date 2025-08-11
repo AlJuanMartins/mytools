@@ -3,17 +3,20 @@ E_INT = '71828182845904523536028747135266249775724709369995957496696762772407663
 
 def pi_real(x):
 
-    
     if x == 0:
+
         return '3'
     
     else:
+
         return '3,' + PI_INT[:x]
 
 def e_real(x):
 
     if x == 0:
+        
         return '2'
+    
     else:
         
         return '2,' + E_INT[:x]
